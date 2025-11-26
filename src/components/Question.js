@@ -21,7 +21,7 @@ function Question({myData, restart}){
         ...el, 
         answers: shuffledAnswers, 
         selected: '',
-        className: 'default',
+        className: '',
       }
     })
     setData(proccesedData)
